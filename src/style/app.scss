@@ -1,0 +1,23 @@
+@import './lib/core/reset.scss';
+@import "./usage/common/common.scss";
+@import './lib/swiper.css';
+@import './usage/common/common2.css';
+
+body,html{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+i{
+  font-size: .18rem;
+  color: #888;
+}
+.cent{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-100%);
+}
+@import './usage/tpls/guide.scss';
+@import './usage/tpls/home.scss';
+@import './usage/tpls/exit.scss';

@@ -1,0 +1,116 @@
+.on{
+  line-height: .45rem;
+  height: .45rem;
+  color: rgb(66,192,51);
+  border-bottom: 2px solid rgb(66,192,51);
+  box-sizing: border-box;
+}
+
+.footer{
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  height: .44rem;
+  width: 100%;
+  figure{
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    flex:1;
+  }
+  .camera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin-left: 50%;
+    transform: translate(-50%,-20%);
+    @include circle(.55rem,55%);
+    //border-radius: 50%;
+    //height: .44rem;
+    //width: .44rem;
+    box-shadow: 0 0 .05rem .02rem #ccc;
+  }
+}
+/*----------------------------------------------------------------------------------*/
+.header{
+  height:.44rem;
+  background:#0FC441;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hcont{
+  height:.44rem;
+  display: flex;
+  background: white;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+  & span{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.sc2{
+  position: absolute;
+  top:.88rem;
+  bottom:.44rem;
+  width: 100%;
+}
+.sc2 .ssd1{
+  //display: flex;
+  //flex-wrap: wrap;
+  //overflow-y: auto;
+  figure{
+    display: inline-block;
+    width: 48%;
+    transform: translate(2%,0);
+    //margin-bottom: .1rem;
+    margin-top: 0.1rem;
+    text-align: center;
+    &:nth-child(odd){
+      margin-right: 1.5%;
+    }
+  }
+}
+.homepage{
+  width: 40%;
+  height: 85%;
+  background: rgba(255,255,255,.2);
+  border-radius: .2rem;
+  display: flex;
+  overflow: hidden;
+  & div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .topselect{
+    background: rgba(255,255,255,.4);
+  }
+}
+.topi{
+  position: absolute;
+  left:.1rem
+}
+.topri{
+  left: auto;
+  right: .1rem;
+}
+.downon{
+  color:rgb(66,192,51);
+  & i{
+    color: rgb(66,192,51);
+  }
+}

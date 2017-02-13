@@ -1,0 +1,23 @@
+<div class="hcont">
+    <span class='on' ng-click="ck(0)">足球现场</span>
+    <span ng-click="ck(1)">足球生活</span>
+    <span ng-click="ck(2)">足球美女</span>
+</div>
+<div class="swiper-container sc2">
+    <div class="swiper-wrapper ">
+        <div class="swiper-slide ssd1">
+            <div>
+                <figure ng-repeat='x in data'>
+                    <img ng-src={{x.img}} alt=""/>
+                    <figcaption>{{x.title}}</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <h1 class="cent">2</h1>
+        </div>
+        <div class="swiper-slide">
+            <h1 class="cent">3</h1>
+        </div>
+    </div>
+</div>
